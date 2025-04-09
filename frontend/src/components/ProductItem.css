@@ -1,0 +1,20 @@
+.product-card {
+    border: 1px solid #e5e5e5; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    transition: transform 0.3s; /* Smooth scaling */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.product-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-info {
+    padding: 15px; /* Padding for content */
+    text-align: center; /* Center text */
+} 
